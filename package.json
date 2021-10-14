@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
+  "scripts": {    
+    "start": "node app.js",
     "test": "nodemon app.js",
     "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
   },
