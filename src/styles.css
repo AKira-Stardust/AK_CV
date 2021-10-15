@@ -47,7 +47,8 @@
   .nav_hover{
     @apply hover:text-xl hover:font-bold hover:text-green-800 transition ease-out duration-1000;
   }
-
+ 
+  
   .nav_head_hover{
     @apply hover:text-green-800 transition ease-out duration-500;
   }
