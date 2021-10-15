@@ -43,3 +43,35 @@
     color: #00A19D;
     /*Set to match the Tailwind colour you want the active one to be */
   }
+
+  .nav_hover{
+    @apply hover:text-xl hover:font-bold hover:text-green-800 transition ease-out duration-1000;
+  }
+
+  .nav_head_hover{
+    @apply hover:text-green-800 transition ease-out duration-500;
+  }
+
+  .footer_hover{
+    @apply  hover:text-green-800 transition ease-in duration-300;
+  }
+
+  .portfolio_hover{
+    @apply  hover:text-green-800 transition ease-in duration-300;
+  }
+
+  .card_wrapper{
+    @apply grid sm:grid-cols-2 md:grid-cols-3 place-items-center p-4;
+  }
+  
+  .card_item_image{
+    @apply sm:col-span-1 md:col-span-1 p-2 align-middle;
+  }
+
+  .card_item_content{
+    @apply sm:col-span-1 md:col-span-2 border-b-2 border-headerBg;
+  }
+
+  .card_item_image_title{
+    @apply block font-bold p-3 text-center; 
+  }
