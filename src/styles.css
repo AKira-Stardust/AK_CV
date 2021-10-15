@@ -75,3 +75,8 @@
   .card_item_image_title{
     @apply block font-bold p-3 text-center; 
   }
+
+  /* * { 
+    outline: 1px red solid !important; 
+    visibility: visible !important; 
+  }  */
