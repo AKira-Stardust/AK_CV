@@ -2,24 +2,26 @@
 <html lang="en" class="overflow-x-hidden">
 <%- include("header.ejs") %>
 <body class="font-body overflow-x-hidden">
-    <div> <!-- Content Wrapper BEGINS -->
+    <div class="pt-20" id="main_wrapper"> <!-- Content Wrapper BEGINS -->
 
-<%- include("nav.ejs") %>
+        <%- include("nav.ejs") %>
     
-        <main class="text-gray-600">
+        <main class="text-gray-600 relative">
             <%- include("about.ejs") %>
 
             <%- include("partials/seperator.ejs") %>
 
+            <div id="skillset"></div>
             <%- include("skillset.ejs") %>
             
-
             <%- include("partials/seperator.ejs") %>
 
+            <div id="portfolio"></div>
             <%- include("portfolio.ejs") %>
             
             <%- include("partials/seperator.ejs") %>           
 
+            <div id="hobbies"></div>
             <%- include("hobbies.ejs") %>
 
             <%- include("partials/seperator.ejs") %>
@@ -27,8 +29,8 @@
             <%- include("misc.ejs") %>
 
         </main>
+        <%- include("footer.ejs") %>
     </div> <!-- Content Wrapper ENDS -->
 </body>
-<%- include("footer.ejs") %>
 <script src="index.js"></script>
 </html>
