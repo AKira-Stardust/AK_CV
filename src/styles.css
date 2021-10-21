@@ -45,21 +45,21 @@
   }
 
   .nav_hover{
-    @apply hover:text-xl hover:font-bold hover:text-green-800 transition ease-out duration-1000;
+    @apply hover:text-xl hover:font-bold hover:text-navHoverBrown transition;
   }
- 
+  /* ease-out duration-1000 */
   
   .nav_head_hover{
-    @apply hover:text-green-800 transition ease-out duration-500;
+    @apply hover:text-navHoverBrown  transition ease-out duration-500;
   }
 
   .footer_hover{
-    @apply  hover:text-green-800 transition ease-in duration-300;
+    @apply  hover:text-navHoverBrown  transition ease-out duration-300;
   }
 
   .portfolio_hover{
-    @apply  hover:text-green-800 transition ease-in duration-300;
-  }
+    @apply  hover:text-navHoverBrown transition ease-out duration-300;
+  }  
 
   .card_wrapper{
     @apply grid sm:grid-cols-2 md:grid-cols-3 place-items-center p-4;
