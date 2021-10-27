@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" class="overflow-x-hidden">
-<!-- <%- include("header.ejs") %> -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,8 +12,7 @@
 <body class="font-body overflow-x-hidden">
     <div class="pt-20  bg-tokyo-cityscape" id="main_wrapper"> <!-- Content Wrapper BEGINS -->
 
-        <!-- <%- include("nav.ejs") %> -->
-         <!-- Section 1.1 Nav BEGINS BIG SCREEN -->
+        <!-- Section 1.1 Nav BEGINS BIG SCREEN -->
         <div class="bg-headerBg text-headerTxt hidden sm:block w-full fixed top-0 z-20">
             <nav class="p-10 flex justify-between items-center h-20">
                 <div class="pl-5">
@@ -122,7 +120,6 @@
 
 
         <main class="text-gray-600 relative">
-            <!-- <%- include("about.ejs") %> -->
             <!-- ABOUT -->
             <div id="about" class="grid sm:grid-cols-2 md:grid-cols-4 place-items-center card mt-0";> <!-- Section 1.2 Intro BEGINS-->
                 <div class="p-5 sm:col-span-1 md:col-span-1 "> <!-- Profile Picture-->
@@ -134,10 +131,11 @@
             </div> 
             <!-- Section 1.2 Intro ENDS -->
            
-            <%- include("partials/seperator.ejs") %>
+            <div class="text-center"> 
+                <span class="text-headerBg font-semibold">• • •</span>
+            </div>
 
             <div id="skillset"></div>
-            <!-- <%- include("skillset.ejs") %> -->
             <!-- Section 2 Skillset BEGINS-->
             <div class="card mt-10"> 
                 <div class="text-center pt-2 pb-3"> <!-- header -->
@@ -238,10 +236,12 @@
                 </div>
             </div> 
             <!-- Section 2 SKILLSET ENDS -->
-            <%- include("partials/seperator.ejs") %>
+
+            <div class="text-center"> 
+                <span class="text-headerBg font-semibold">• • •</span>
+            </div>
 
             <div id="portfolio"></div>
-            <!-- <%- include("portfolio.ejs") %> -->
             <!-- Section 4 Portfolio BEGINS-->
             <div class="card mt-10"> 
                 <div class="text-center pt-7 pb-10"> <!-- header -->
@@ -415,10 +415,11 @@
             </div> <!-- Section 4 PORTFOLIO ENDS -->
 
 
-            <%- include("partials/seperator.ejs") %>           
+            <div class="text-center"> 
+                <span class="text-headerBg font-semibold">• • •</span>
+            </div>        
 
             <div id="hobbies"></div>
-            <!-- <%- include("hobbies.ejs") %> -->
             <!-- Section 3 Hobbies BEGINS-->
             <div class="card mt-10 p-6"> 
                 <div class="text-center pt-6 pb-2"> <!-- header -->
@@ -474,9 +475,10 @@
 
 
             
-            <%- include("partials/seperator.ejs") %>
+            <div class="text-center"> 
+                <span class="text-headerBg font-semibold">• • •</span>
+            </div>
 
-            <!-- <%- include("misc.ejs") %> -->
             <div id="miscellaneous" class="card mt-10 p-5"> 
                 <div class="text-center pt-2 pb-2">
                     <span class="text-headerBg font-bold"> MISCELLANEOUS </span>
@@ -488,7 +490,6 @@
             
 
         </main>
-        <!-- <%- include("footer.ejs") %> -->
         
         <footer class="bg-headerBg text-headerTxt p-6" id="contact"> 
             <div class="text-center"> <!-- Footer Wrapper BEGINS -->
